@@ -1,0 +1,17 @@
+{
+  "name": "ignite-nodejs-challenge-101-2023",
+  "description": "Desafio de API para realizar o CRUD de suas tasks (tarefas)",
+  "author": "Julio Cesar Mowes <t-mowes@hotmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "csv": "node src/importFromCsv.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.3"
+  }
+}
